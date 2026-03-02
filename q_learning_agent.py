@@ -235,7 +235,7 @@ class QLearningAgent:
 
         return True
 
-    # ============ 辅助方法 ============
+    # ============ Auxiliary Function ============
 
     @staticmethod
     def _get_relative_direction(from_pos, to_pos):
@@ -299,4 +299,5 @@ class QLearningAgent:
         plt.grid(True)
         plt.savefig(save_path)
         plt.show()
+
         print(f"Learning curve saved to {save_path}")
